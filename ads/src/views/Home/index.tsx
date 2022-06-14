@@ -12,7 +12,7 @@ export default function Home() {
         const splitString = getRef.split('\n');
         arr.push(splitString);
         
-        const filtered = arr[0].filter((item: any, index: any , inputArray: any ) => {
+        const filtered = arr[0].filter((item: string, index: number | any[] , inputArray: string | any[] ) => {
             return inputArray.indexOf(item) !== index
         })
         
