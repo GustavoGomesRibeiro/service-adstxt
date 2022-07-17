@@ -9,6 +9,8 @@ export const Container = styled.div`
 export const Text = styled.p``;
 
 
+export const ContentText = styled.div``;
+
 export const Content = styled.div`
 
   `;
@@ -41,7 +43,8 @@ export const Errors = styled.div`
     margin: 0 20px;
 `;
 export const Reports = styled.div`
-    width: 300px;
+    min-width: 500px;
     height: 300px;
-    background: #ccc;
+    padding: 10px;
+    background: #e9e9e9;
 `;
